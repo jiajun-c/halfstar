@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: www.halfcs.top/sitemap.xml
