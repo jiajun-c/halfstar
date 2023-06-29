@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on My star</title>
-    <link>www.halfcs.top/posts/</link>
+    <link>https://www.halfcs.top/posts/</link>
     <description>Recent content in Posts on My star</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 29 Jun 2023 20:27:20 +0800</lastBuildDate><atom:link href="www.halfcs.top/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 29 Jun 2023 20:27:20 +0800</lastBuildDate><atom:link href="https://www.halfcs.top/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My First Post</title>
-      <link>www.halfcs.top/posts/my-first-post/</link>
+      <link>https://www.halfcs.top/posts/my-first-post/</link>
       <pubDate>Thu, 29 Jun 2023 20:27:20 +0800</pubDate>
       
-      <guid>www.halfcs.top/posts/my-first-post/</guid>
+      <guid>https://www.halfcs.top/posts/my-first-post/</guid>
       <description> The first # </description>
     </item>
     
