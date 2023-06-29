@@ -11,19 +11,24 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
-  name = "Blog"
-  pageRef = "posts"
-  weight = 30
+    name = "Linux"
+    pageRef = "linux"
+    weight = 30
 
 [[main]]
-  name = "Parent"
-  weight = 30
+    name = "FPGA"
+    pageRef = "fpag"
+    weight = 30
 
 [[main]]
-  name = "example sub-menu 1"
-  parent = "Parent"
-  pageRef = "posts"
-  weight = 30
+    name = "web"
+    pageRef = "web"
+    weight = 30
+# [[main]]
+#   name = "example sub-menu 1"
+#   parent = "Parent"
+#   pageRef = "posts"
+#   weight = 30
 
 #[[main]]
 #  name = "example sub-menu 2"
@@ -31,10 +36,10 @@
 #  pageRef = "posts"
 #  weight = 20
 
-[[subnavigation]]
-  name = "An interesting topic"
-  pageRef = "tags/interesting-topic"
-  weight = 10
+# [[subnavigation]]
+#   name = "An interesting topic"
+#   pageRef = "tags/interesting-topic"
+#   weight = 10
 
 #[[subnavigation]]
 #  name = "My Awesome Category"
