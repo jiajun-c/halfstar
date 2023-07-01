@@ -16,6 +16,10 @@
     weight = 30
 
 [[main]]
+    name = "Opencv"
+    pageRef = "opencv"
+    weight = 30
+[[main]]
     name = "FPGA"
     pageRef = "fpag"
     weight = 30

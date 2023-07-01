@@ -6,7 +6,17 @@
     <description>Recent content on My star</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 29 Jun 2023 20:27:20 +0800</lastBuildDate><atom:link href="https://www.halfcs.top/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 01 Jul 2023 09:31:32 +0800</lastBuildDate><atom:link href="https://www.halfcs.top/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Opencv GetStart</title>
+      <link>https://www.halfcs.top/opencv/getstart/</link>
+      <pubDate>Sat, 01 Jul 2023 09:31:32 +0800</pubDate>
+      
+      <guid>https://www.halfcs.top/opencv/getstart/</guid>
+      <description>Opencv environment configuration # Host information # raspberry zerow with office camera.</description>
+      
+    </item>
+    
     <item>
       <title>About</title>
       <link>https://www.halfcs.top/about/</link>
