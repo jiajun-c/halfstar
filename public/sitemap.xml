@@ -4,8 +4,8 @@
   
     
       <url>
-            <loc>https://www.halfcs.top/</loc>
-            <lastmod>2023-07-01T09:31:32+08:00</lastmod>
+            <loc>https://www.halfcs.top/opencv/threshold/</loc>
+            <lastmod>2023-07-01T20:31:32+08:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
           </url>
@@ -13,8 +13,8 @@
   
     
       <url>
-            <loc>https://www.halfcs.top/opencv/getstart/</loc>
-            <lastmod>2023-07-01T09:31:32+08:00</lastmod>
+            <loc>https://www.halfcs.top/</loc>
+            <lastmod>2023-07-01T20:31:32+08:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
           </url>
@@ -23,6 +23,33 @@
     
       <url>
             <loc>https://www.halfcs.top/opencv/</loc>
+            <lastmod>2023-07-01T20:31:32+08:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://www.halfcs.top/opencv/transformation/</loc>
+            <lastmod>2023-07-01T10:31:32+08:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://www.halfcs.top/opencv/imgstart/</loc>
+            <lastmod>2023-07-01T10:31:32+08:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://www.halfcs.top/opencv/getstart/</loc>
             <lastmod>2023-07-01T09:31:32+08:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -51,6 +78,22 @@
       <url>
             <loc>https://www.halfcs.top/posts/</loc>
             <lastmod>2023-06-29T20:27:20+08:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://www.halfcs.top/opencv/colorchange/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://www.halfcs.top/opencv/imagefilter/</loc>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
           </url>
