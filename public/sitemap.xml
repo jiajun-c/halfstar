@@ -85,6 +85,14 @@
   
     
       <url>
+            <loc>https://www.halfcs.top/arch/paper/commit/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
             <loc>https://www.halfcs.top/opencv/colorchange/</loc>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -94,6 +102,14 @@
     
       <url>
             <loc>https://www.halfcs.top/opencv/imagefilter/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://www.halfcs.top/arch/</loc>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
           </url>

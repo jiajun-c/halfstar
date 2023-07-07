@@ -33,11 +33,17 @@
     name = "About"
     pageRef = "about"
     weight = 30
-# [[main]]
-#   name = "example sub-menu 1"
-#   parent = "Parent"
-#   pageRef = "posts"
-#   weight = 30
+
+[[main]]
+    name = "microarchitecture"
+    pageRef = "arch"
+    weight = 30
+    
+[[main]]
+  name = "paper summary"
+  parent = "microarchitecture"
+  pageRef = "arch/paper"
+  weight = 30
 
 #[[main]]
 #  name = "example sub-menu 2"
