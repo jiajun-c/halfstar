@@ -1,3 +1,8 @@
+---
+title: "Deconstructing Commit"
+date: 2023-07-07T09:31:32+08:00
+---
+
 # Deconstructing Commit
 
 [link to the paper pdf](https://pharm.ece.wisc.edu/papers/ispass2004gbell.pdf)
