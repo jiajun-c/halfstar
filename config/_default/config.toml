@@ -6,7 +6,6 @@ theme = "blowfish"
 baseURL = "https://www.halfcs.top/"
 defaultContentLanguage = "en"
 
-# pluralizeListTitles = "true" # hugo function useful for non-english languages, find out more in  https://gohugo.io/getting-started/configuration/#pluralizelisttitles
 
 enableRobotsTXT = true
 paginate = 10
@@ -14,8 +13,6 @@ summaryLength = 0
 
 buildDrafts = false
 buildFuture = false
-
-# googleAnalytics = "G-XXXXXXXXX"
 
 [imaging]
   anchor = 'Center'
@@ -59,7 +56,7 @@ buildFuture = false
         weight = 10
 
     [[related.indices]]
-      applyFilter = false
-      name = 'fragmentrefs'
-      type = 'fragments'
-      weight = 10
+        applyFilter = false
+        name = 'fragmentrefs'
+        type = 'fragments'
+        weight = 10

@@ -40,10 +40,16 @@
     weight = 30
     
 [[main]]
-  name = "paper summary"
-  parent = "microarchitecture"
-  pageRef = "arch/paper"
-  weight = 30
+    name = "paper summary"
+    parent = "microarchitecture"
+    pageRef = "arch/paper"
+    weight = 30
+
+[[main]]
+    name = "cs"
+    parent = "computer science"
+    pageRef = "cs"
+    weight = 30
 
 #[[main]]
 #  name = "example sub-menu 2"
