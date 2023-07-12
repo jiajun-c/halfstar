@@ -46,8 +46,7 @@
     weight = 30
 
 [[main]]
-    name = "cs"
-    parent = "computer science"
+    name = "computer science"
     pageRef = "cs"
     weight = 30
 
