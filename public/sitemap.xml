@@ -67,6 +67,33 @@
   
     
       <url>
+            <loc>https://www.halfcs.top/opencv/colorchange/</loc>
+            <lastmod>2023-07-01T09:31:32+08:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://www.halfcs.top/cs/net/</loc>
+            <lastmod>2023-07-01T09:31:32+08:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://www.halfcs.top/cs/</loc>
+            <lastmod>2023-07-01T09:31:32+08:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
             <loc>https://www.halfcs.top/opencv/getstart/</loc>
             <lastmod>2023-07-01T09:31:32+08:00</lastmod>
             <changefreq>daily</changefreq>
@@ -96,14 +123,6 @@
       <url>
             <loc>https://www.halfcs.top/posts/</loc>
             <lastmod>2023-06-29T20:27:20+08:00</lastmod>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://www.halfcs.top/opencv/colorchange/</loc>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
           </url>
