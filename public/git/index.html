@@ -8,14 +8,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title>Geometric Transformations of Images &middot; My star</title>
-  <meta name="title" content="Geometric Transformations of Images &middot; My star" />
+  <title>Git 入门 &middot; My star</title>
+  <meta name="title" content="Git 入门 &middot; My star" />
   
   
   
   
   
-  <link rel="canonical" href="https://www.halfcs.top/opencv/transformation/" />
+  <link rel="canonical" href="https://www.halfcs.top/git/" />
   
   
   
@@ -58,43 +58,43 @@
   
   
   
-  <meta property="og:title" content="Geometric Transformations of Images" />
-<meta property="og:description" content="Geometric Transformations of Images # 1." />
+  <meta property="og:title" content="Git 入门" />
+<meta property="og:description" content="1." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://www.halfcs.top/opencv/transformation/" /><meta property="article:section" content="opencv" />
-<meta property="article:published_time" content="2023-07-01T10:31:32+08:00" />
-<meta property="article:modified_time" content="2023-07-01T10:31:32+08:00" />
+<meta property="og:url" content="https://www.halfcs.top/git/" /><meta property="article:section" content="" />
+<meta property="article:published_time" content="2023-08-04T19:29:46+08:00" />
+<meta property="article:modified_time" content="2023-08-04T19:29:46+08:00" />
 
   <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Geometric Transformations of Images"/>
-<meta name="twitter:description" content="Geometric Transformations of Images # 1."/>
+<meta name="twitter:title" content="Git 入门"/>
+<meta name="twitter:description" content="1."/>
 
   
   <script type="application/ld+json">
   [{
     "@context": "https://schema.org",
     "@type": "Article",
-    "articleSection": "Opencvs",
-    "name": "Geometric Transformations of Images",
-    "headline": "Geometric Transformations of Images",
+    "articleSection": "My star",
+    "name": "Git 入门",
+    "headline": "Git 入门",
     
-    "abstract": "Geometric Transformations of Images # 1.",
+    "abstract": "1.",
     "inLanguage": "en",
-    "url" : "https:\/\/www.halfcs.top\/opencv\/transformation\/",
+    "url" : "https:\/\/www.halfcs.top\/git\/",
     "author" : {
       "@type": "Person",
       "name": "half star"
     },
     "copyrightYear": "2023",
-    "dateCreated": "2023-07-01T10:31:32\u002b08:00",
-    "datePublished": "2023-07-01T10:31:32\u002b08:00",
+    "dateCreated": "2023-08-04T19:29:46\u002b08:00",
+    "datePublished": "2023-08-04T19:29:46\u002b08:00",
     
-    "dateModified": "2023-07-01T10:31:32\u002b08:00",
+    "dateModified": "2023-08-04T19:29:46\u002b08:00",
     
     
     
     "mainEntityOfPage": "true",
-    "wordCount": "205"
+    "wordCount": "182"
   }]
   </script>
 
@@ -622,8 +622,6 @@
   
     
   
-    
-  
   <li class="inline hidden">
     <a
       class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
@@ -633,20 +631,11 @@
   </li>
 
   
-  <li class="inline ">
-    <a
-      class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
-      href="/opencv/"
-      >Opencvs</a
-    ><span class="px-1 text-primary-500">/</span>
-  </li>
-
-  
   <li class="inline hidden">
     <a
       class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
-      href="/opencv/transformation/"
-      >Geometric Transformations of Images</a
+      href="/git/"
+      >Git 入门</a
     ><span class="px-1 text-primary-500">/</span>
   </li>
 
@@ -655,7 +644,7 @@
 
     
     <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-      Geometric Transformations of Images
+      Git 入门
     </h1>
     <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
       
@@ -698,7 +687,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2023-07-01 10:31:32 &#43;0800 CST">1 July 2023</time><span class="px-2 text-primary-500">&middot;</span><span>205 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span>
+  <time datetime="2023-08-04 19:29:46 &#43;0800 CST">4 August 2023</time><span class="px-2 text-primary-500">&middot;</span><span>182 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span>
   
 
   
@@ -727,11 +716,25 @@
     class="min-w-[220px] py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#1-transformations">1. Transformations</a>
+    <li><a href="#21-git完整性">2.1 git完整性</a></li>
+    <li><a href="#22-文件状态">2.2 文件状态</a></li>
+    <li><a href="#23-git-配置">2.3 git 配置</a></li>
+    <li><a href="#3-git基础使用">3. git基础使用</a>
       <ul>
-        <li><a href="#11-scaling">1.1 scaling</a></li>
-        <li><a href="#12-rotation">1.2 rotation</a></li>
-        <li><a href="#13-perspective-transformation">1.3 Perspective Transformation</a></li>
+        <li><a href="#31-初始化仓库">3.1 初始化仓库</a></li>
+        <li><a href="#32-查看仓库状态">3.2 查看仓库状态</a></li>
+        <li><a href="#33-忽略某些文件">3.3 忽略某些文件</a></li>
+        <li><a href="#34-查看历史">3.4 查看历史</a></li>
+        <li><a href="#35-撤销修改">3.5 撤销修改</a></li>
+        <li><a href="#36-远程仓库的管理">3.6 远程仓库的管理</a></li>
+        <li><a href="#36-标签管理">3.6 标签管理</a></li>
+      </ul>
+    </li>
+    <li><a href="#4-git-分支">4. git 分支</a>
+      <ul>
+        <li><a href="#41-分支合并">4.1 分支合并</a></li>
+        <li><a href="#42-分支删除">4.2 分支删除</a></li>
+        <li><a href="#43-分支冲突">4.3 分支冲突</a></li>
       </ul>
     </li>
   </ul>
@@ -747,11 +750,25 @@
     class="py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#1-transformations">1. Transformations</a>
+    <li><a href="#21-git完整性">2.1 git完整性</a></li>
+    <li><a href="#22-文件状态">2.2 文件状态</a></li>
+    <li><a href="#23-git-配置">2.3 git 配置</a></li>
+    <li><a href="#3-git基础使用">3. git基础使用</a>
       <ul>
-        <li><a href="#11-scaling">1.1 scaling</a></li>
-        <li><a href="#12-rotation">1.2 rotation</a></li>
-        <li><a href="#13-perspective-transformation">1.3 Perspective Transformation</a></li>
+        <li><a href="#31-初始化仓库">3.1 初始化仓库</a></li>
+        <li><a href="#32-查看仓库状态">3.2 查看仓库状态</a></li>
+        <li><a href="#33-忽略某些文件">3.3 忽略某些文件</a></li>
+        <li><a href="#34-查看历史">3.4 查看历史</a></li>
+        <li><a href="#35-撤销修改">3.5 撤销修改</a></li>
+        <li><a href="#36-远程仓库的管理">3.6 远程仓库的管理</a></li>
+        <li><a href="#36-标签管理">3.6 标签管理</a></li>
+      </ul>
+    </li>
+    <li><a href="#4-git-分支">4. git 分支</a>
+      <ul>
+        <li><a href="#41-分支合并">4.1 分支合并</a></li>
+        <li><a href="#42-分支删除">4.2 分支删除</a></li>
+        <li><a href="#43-分支冲突">4.3 分支冲突</a></li>
       </ul>
     </li>
   </ul>
@@ -804,87 +821,213 @@
       <div class="min-w-0 min-h-0 max-w-prose">
         
 
-        <div id="geometric-transformations-of-images" class="anchor"></div>
-<h1 class="relative group">Geometric Transformations of Images 
+        <div id="1-git介绍" class="anchor"></div>
+<h1 class="relative group">1. git介绍 
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#geometric-transformations-of-images" aria-label="Anchor">#</a></span>        
+            style="text-decoration-line: none !important;" href="#1-git%e4%bb%8b%e7%bb%8d" aria-label="Anchor">#</a></span>        
     
 </h1>
-<div id="1-transformations" class="anchor"></div>
-<h2 class="relative group">1. Transformations 
+<p>git是一套高效的版本管理工具，最早是因为bitkeeper同linux社区结束了合作关系，导致linus开始开发一套自己的版本管理工具。</p>
+<div id="2-git的基本原理" class="anchor"></div>
+<h1 class="relative group">2. git的基本原理 
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#1-transformations" aria-label="Anchor">#</a></span>        
+            style="text-decoration-line: none !important;" href="#2-git%e7%9a%84%e5%9f%ba%e6%9c%ac%e5%8e%9f%e7%90%86" aria-label="Anchor">#</a></span>        
+    
+</h1>
+<div id="21-git完整性" class="anchor"></div>
+<h2 class="relative group">2.1 git完整性 
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#21-git%e5%ae%8c%e6%95%b4%e6%80%a7" aria-label="Anchor">#</a></span>        
     
 </h2>
-<p>cv.warpAffine and cv.warpPerspective are two functions used to transform the pictures.</p>
-<p>The warpAffine can be used to rotate , translate and scale, transformed parallel lines are still parallel.</p>
-<div id="11-scaling" class="anchor"></div>
-<h3 class="relative group">1.1 scaling 
+<p>在保存到git之前，需要对数据进行内容的检验和计算，git使用的sha-1算法计算检验和，该检验和由40个字符串组成作为指纹字符串进行标识。</p>
+<div id="22-文件状态" class="anchor"></div>
+<h2 class="relative group">2.2 文件状态 
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#11-scaling" aria-label="Anchor">#</a></span>        
+            style="text-decoration-line: none !important;" href="#22-%e6%96%87%e4%bb%b6%e7%8a%b6%e6%80%81" aria-label="Anchor">#</a></span>        
     
-</h3>
-<p>using the <code>cv.resize</code> function to resize the image.</p>
-<p>when using the <code>cv.resize</code> function to resize the image, there are two ways.</p>
+</h2>
+<p>git中的文件有三种状态</p>
 <ul>
-<li>using the <code>fx</code> and <code>fy</code> to scale the x and y</li>
-<li>using the shape parameter to set the x and y directly</li>
+<li>commited：已经被提交</li>
+<li>staged：修改被暂存</li>
+<li>modified：被修改</li>
 </ul>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
-</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">cv2</span> <span class="k">as</span> <span class="nn">cv</span>
-</span></span><span class="line"><span class="cl"><span class="n">img</span> <span class="o">=</span> <span class="n">cv</span><span class="o">.</span><span class="n">imread</span><span class="p">(</span><span class="s1">&#39;messi5.jpg&#39;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="k">assert</span> <span class="n">img</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">,</span> <span class="s2">&#34;file could not be read, check with os.path.exists()&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="n">res</span> <span class="o">=</span> <span class="n">cv</span><span class="o">.</span><span class="n">resize</span><span class="p">(</span><span class="n">img</span><span class="p">,</span><span class="kc">None</span><span class="p">,</span><span class="n">fx</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">fy</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">interpolation</span> <span class="o">=</span> <span class="n">cv</span><span class="o">.</span><span class="n">INTER_CUBIC</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#OR</span>
-</span></span><span class="line"><span class="cl"><span class="n">height</span><span class="p">,</span> <span class="n">width</span> <span class="o">=</span> <span class="n">img</span><span class="o">.</span><span class="n">shape</span><span class="p">[:</span><span class="mi">2</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl"><span class="n">res</span> <span class="o">=</span> <span class="n">cv</span><span class="o">.</span><span class="n">resize</span><span class="p">(</span><span class="n">img</span><span class="p">,(</span><span class="mi">2</span><span class="o">*</span><span class="n">width</span><span class="p">,</span> <span class="mi">2</span><span class="o">*</span><span class="n">height</span><span class="p">),</span> <span class="n">interpolation</span> <span class="o">=</span> <span class="n">cv</span><span class="o">.</span><span class="n">INTER_CUBIC</span><span class="p">)</span>
-</span></span></code></pre></div><div id="12-rotation" class="anchor"></div>
-<h3 class="relative group">1.2 rotation 
+<div id="23-git-配置" class="anchor"></div>
+<h2 class="relative group">2.3 git 配置 
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#12-rotation" aria-label="Anchor">#</a></span>        
+            style="text-decoration-line: none !important;" href="#23-git-%e9%85%8d%e7%bd%ae" aria-label="Anchor">#</a></span>        
     
-</h3>
-<p>using <code>cv.wrapAffine</code> to rotate the image.</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">img</span> <span class="o">=</span> <span class="n">cv</span><span class="o">.</span><span class="n">imread</span><span class="p">(</span><span class="s1">&#39;messi5.jpg&#39;</span><span class="p">,</span> <span class="n">cv</span><span class="o">.</span><span class="n">IMREAD_GRAYSCALE</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="k">assert</span> <span class="n">img</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">,</span> <span class="s2">&#34;file could not be read, check with os.path.exists()&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="n">rows</span><span class="p">,</span><span class="n">cols</span> <span class="o">=</span> <span class="n">img</span><span class="o">.</span><span class="n">shape</span>
-</span></span><span class="line"><span class="cl"><span class="c1"># cols-1 and rows-1 are the coordinate limits.</span>
-</span></span><span class="line"><span class="cl"><span class="n">M</span> <span class="o">=</span> <span class="n">cv</span><span class="o">.</span><span class="n">getRotationMatrix2D</span><span class="p">(((</span><span class="n">cols</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span><span class="o">/</span><span class="mf">2.0</span><span class="p">,(</span><span class="n">rows</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span><span class="o">/</span><span class="mf">2.0</span><span class="p">),</span><span class="mi">90</span><span class="p">,</span><span class="mi">1</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="n">dst</span> <span class="o">=</span> <span class="n">cv</span><span class="o">.</span><span class="n">warpAffine</span><span class="p">(</span><span class="n">img</span><span class="p">,</span><span class="n">M</span><span class="p">,(</span><span class="n">cols</span><span class="p">,</span><span class="n">rows</span><span class="p">))</span>
-</span></span></code></pre></div><div id="13-perspective-transformation" class="anchor"></div>
-<h3 class="relative group">1.3 Perspective Transformation 
+</h2>
+<p>git的配置文件在<code>/etc/gitconfig</code>和<code>~/.gitconfig</code> 中，前者是对系统适用的配置文件，后者是对用户适用的配置文件</p>
+<p>下面是一个用户配置文件的例子，用于配置编辑器等</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="o">[</span>user<span class="o">]</span>
+</span></span><span class="line"><span class="cl">	<span class="nv">email</span> <span class="o">=</span> chengjiajun20@gmail.com
+</span></span><span class="line"><span class="cl">    <span class="nv">name</span> <span class="o">=</span> jiajunCheng
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="o">[</span>core<span class="o">]</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">editor</span> <span class="o">=</span> vim
+</span></span><span class="line"><span class="cl"><span class="o">[</span>https<span class="o">]</span>
+</span></span><span class="line"><span class="cl">	<span class="nv">postBuffer</span> <span class="o">=</span> <span class="m">1048576000</span>
+</span></span><span class="line"><span class="cl"><span class="o">[</span>http<span class="o">]</span>
+</span></span><span class="line"><span class="cl">	<span class="nv">postBuffer</span> <span class="o">=</span> <span class="m">357286400</span>
+</span></span></code></pre></div><p>为了对git进行配置，可以选择直接编辑此配置文件，也可以使用命令行进行配置</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">git config --global user.name <span class="s2">&#34;jiajunCheng&#34;</span>
+</span></span></code></pre></div><p>如果要查看配置的信息 <code>git config --list</code></p>
+<div id="3-git基础使用" class="anchor"></div>
+<h2 class="relative group">3. git基础使用 
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#13-perspective-transformation" aria-label="Anchor">#</a></span>        
+            style="text-decoration-line: none !important;" href="#3-git%e5%9f%ba%e7%a1%80%e4%bd%bf%e7%94%a8" aria-label="Anchor">#</a></span>        
+    
+</h2>
+<div id="31-初始化仓库" class="anchor"></div>
+<h3 class="relative group">3.1 初始化仓库 
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#31-%e5%88%9d%e5%a7%8b%e5%8c%96%e4%bb%93%e5%ba%93" aria-label="Anchor">#</a></span>        
     
 </h3>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">img</span> <span class="o">=</span> <span class="n">cv</span><span class="o">.</span><span class="n">imread</span><span class="p">(</span><span class="s1">&#39;sudoku.png&#39;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="k">assert</span> <span class="n">img</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">,</span> <span class="s2">&#34;file could not be read, check with os.path.exists()&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="n">rows</span><span class="p">,</span><span class="n">cols</span><span class="p">,</span><span class="n">ch</span> <span class="o">=</span> <span class="n">img</span><span class="o">.</span><span class="n">shape</span>
-</span></span><span class="line"><span class="cl"><span class="n">pts1</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">float32</span><span class="p">([[</span><span class="mi">56</span><span class="p">,</span><span class="mi">65</span><span class="p">],[</span><span class="mi">368</span><span class="p">,</span><span class="mi">52</span><span class="p">],[</span><span class="mi">28</span><span class="p">,</span><span class="mi">387</span><span class="p">],[</span><span class="mi">389</span><span class="p">,</span><span class="mi">390</span><span class="p">]])</span>
-</span></span><span class="line"><span class="cl"><span class="n">pts2</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">float32</span><span class="p">([[</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">],[</span><span class="mi">300</span><span class="p">,</span><span class="mi">0</span><span class="p">],[</span><span class="mi">0</span><span class="p">,</span><span class="mi">300</span><span class="p">],[</span><span class="mi">300</span><span class="p">,</span><span class="mi">300</span><span class="p">]])</span>
-</span></span><span class="line"><span class="cl"><span class="n">M</span> <span class="o">=</span> <span class="n">cv</span><span class="o">.</span><span class="n">getPerspectiveTransform</span><span class="p">(</span><span class="n">pts1</span><span class="p">,</span><span class="n">pts2</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="n">dst</span> <span class="o">=</span> <span class="n">cv</span><span class="o">.</span><span class="n">warpPerspective</span><span class="p">(</span><span class="n">img</span><span class="p">,</span><span class="n">M</span><span class="p">,(</span><span class="mi">300</span><span class="p">,</span><span class="mi">300</span><span class="p">))</span>
-</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">subplot</span><span class="p">(</span><span class="mi">121</span><span class="p">),</span><span class="n">plt</span><span class="o">.</span><span class="n">imshow</span><span class="p">(</span><span class="n">img</span><span class="p">),</span><span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">&#39;Input&#39;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">subplot</span><span class="p">(</span><span class="mi">122</span><span class="p">),</span><span class="n">plt</span><span class="o">.</span><span class="n">imshow</span><span class="p">(</span><span class="n">dst</span><span class="p">),</span><span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">&#39;Output&#39;</span><span class="p">)</span>
-</span></span></code></pre></div>
+<p>初始化为git仓库</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">git init
+</span></span></code></pre></div><p>添加修改的文件</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">git add .
+</span></span></code></pre></div><p>进行commit</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">git commit -m <span class="s2">&#34;the commit message&#34;</span>
+</span></span></code></pre></div><div id="32-查看仓库状态" class="anchor"></div>
+<h3 class="relative group">3.2 查看仓库状态 
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#32-%e6%9f%a5%e7%9c%8b%e4%bb%93%e5%ba%93%e7%8a%b6%e6%80%81" aria-label="Anchor">#</a></span>        
+    
+</h3>
+<p>使用<code>git status</code> 可以查看仓库的状态，显示文件所在分支等情况</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">git status
+</span></span></code></pre></div><div id="33-忽略某些文件" class="anchor"></div>
+<h3 class="relative group">3.3 忽略某些文件 
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#33-%e5%bf%bd%e7%95%a5%e6%9f%90%e4%ba%9b%e6%96%87%e4%bb%b6" aria-label="Anchor">#</a></span>        
+    
+</h3>
+<p>使用<code>.gitignore</code>可以忽略文件使得其不被git所追踪</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="c1"># 忽略所有满足通配符的文件</span>
+</span></span><span class="line"><span class="cl">*.a
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 将文件设置为例外</span>
+</span></span><span class="line"><span class="cl">!lib.a
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 忽略根目录下的a.txt</span>
+</span></span><span class="line"><span class="cl">/a.txt
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 忽略build文件夹下的所有文件</span>
+</span></span><span class="line"><span class="cl">build/
+</span></span></code></pre></div><div id="34-查看历史" class="anchor"></div>
+<h3 class="relative group">3.4 查看历史 
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#34-%e6%9f%a5%e7%9c%8b%e5%8e%86%e5%8f%b2" aria-label="Anchor">#</a></span>        
+    
+</h3>
+<p>通过<code>git log</code> 可以查看历史信息等</p>
+<div id="35-撤销修改" class="anchor"></div>
+<h3 class="relative group">3.5 撤销修改 
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#35-%e6%92%a4%e9%94%80%e4%bf%ae%e6%94%b9" aria-label="Anchor">#</a></span>        
+    
+</h3>
+<p>撤销最后一次的修改</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">git commit --amend
+</span></span></code></pre></div><div id="36-远程仓库的管理" class="anchor"></div>
+<h3 class="relative group">3.6 远程仓库的管理 
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#36-%e8%bf%9c%e7%a8%8b%e4%bb%93%e5%ba%93%e7%9a%84%e7%ae%a1%e7%90%86" aria-label="Anchor">#</a></span>        
+    
+</h3>
+<p>查看远程的情况</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">git remote -v 
+</span></span></code></pre></div><p>添加一个远程的源</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">git remote add &gt;remote name&gt; &lt;remote url&gt;
+</span></span></code></pre></div><div id="36-标签管理" class="anchor"></div>
+<h3 class="relative group">3.6 标签管理 
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#36-%e6%a0%87%e7%ad%be%e7%ae%a1%e7%90%86" aria-label="Anchor">#</a></span>        
+    
+</h3>
+<p>查看标签</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">git tag
+</span></span></code></pre></div><p>新建标签</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">git tag -a &lt;tag name&gt; -m &lt;tag message&gt;
+</span></span></code></pre></div><p>如果不需要添加信息，可以直接使用<code>git tag &lt;tag name&gt;</code>即可</p>
+<p>后期对某个commit加上tag</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">git tag -a &lt;tag name&gt; &lt;commit version&gt; 
+</span></span></code></pre></div><p>tag默认不会被push到远端，所以需要使用</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">git push &lt;remote name&gt; --tags
+</span></span></code></pre></div><div id="4-git-分支" class="anchor"></div>
+<h2 class="relative group">4. git 分支 
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#4-git-%e5%88%86%e6%94%af" aria-label="Anchor">#</a></span>        
+    
+</h2>
+<div id="41-分支合并" class="anchor"></div>
+<h3 class="relative group">4.1 分支合并 
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#41-%e5%88%86%e6%94%af%e5%90%88%e5%b9%b6" aria-label="Anchor">#</a></span>        
+    
+</h3>
+<p>最简单的是使用merge进行处理，如果没有冲突的话</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">git merge &lt;branch name&gt;
+</span></span></code></pre></div><div id="42-分支删除" class="anchor"></div>
+<h3 class="relative group">4.2 分支删除 
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#42-%e5%88%86%e6%94%af%e5%88%a0%e9%99%a4" aria-label="Anchor">#</a></span>        
+    
+</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">git branch -d &lt;branch name&gt;
+</span></span></code></pre></div><div id="43-分支冲突" class="anchor"></div>
+<h3 class="relative group">4.3 分支冲突 
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#43-%e5%88%86%e6%94%af%e5%86%b2%e7%aa%81" aria-label="Anchor">#</a></span>        
+    
+</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"></code></pre></div>
         </br></br>
         
 
       </div>
      
      <script>
-        var oid = "views_opencv\/Transformation\/index.md"
-        var oid_likes = "likes_opencv\/Transformation\/index.md"
+        var oid = "views_git.md"
+        var oid_likes = "likes_git.md"
       </script>
       
       
@@ -1062,7 +1205,7 @@
       <div class="flex justify-between pt-3">
         <span>
           
-            <a class="flex group mr-3" href="/opencv/imgstart/">
+            <a class="flex group mr-3" href="/about/">
               <span
                 class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
                 >&larr;</span
@@ -1074,11 +1217,11 @@
               <span class="flex flex-col">
                 <span
                   class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >Simple image process</span
+                  >About</span
                 >
                 <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
                   
-                    <time datetime="2023-07-01 10:31:32 &#43;0800 CST">1 July 2023</time>
+                    <time datetime="2023-06-29 22:53:28 &#43;0800 CST">29 June 2023</time>
                   
                 </span>
               </span>
@@ -1086,28 +1229,6 @@
           
         </span>
         <span>
-          
-            <a class="flex text-right group ml-3" href="/opencv/threshold/">
-              <span class="flex flex-col">
-                <span
-                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >Image Thresholding process</span
-                >
-                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
-                  
-                    <time datetime="2023-07-01 20:31:32 &#43;0800 CST">1 July 2023</time>
-                  
-                </span>
-              </span>
-              <span
-                class="ml-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
-                >&rarr;</span
-              >
-              <span
-                class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:hidden rtl:inline dark:text-neutral dark:group-hover:text-primary-400"
-                >&larr;</span
-              >
-            </a>
           
         </span>
       </div>
