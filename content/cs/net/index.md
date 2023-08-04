@@ -1,6 +1,6 @@
 ---
 title: "Computer network"
-date: 2023-07-12T09:31:32+08:00
+date: 2023-07-12T05:31:32+08:00
 ---
 
 ## 1. Application layer
@@ -13,7 +13,7 @@ The first line is the request line
 ```shell
 <HTTP method> url <HTTP version>
 ```
-
+shell
 The following lines are header lines, like
 
 ```shell
@@ -76,6 +76,21 @@ The form of the tcp message.
 |       The seq       |
 |     The ACK num     |
 ```
+
+Connection of the tcp.
+
+- First, the client will send a specified packet to the server with a random isn called the client_isn.
+- Then server receive the packet and send to the server with ack(client_isn + 1) and a random server_isn, it is called the syn_ack.
+- When received the syn_ack, the client will send to the server with server_sin + 1
+
+slow start
+
+At start, it just send a packet, after they are received, it will be twice. When it get to the threshold, it will only add one at a time. 
+
+When the packet is timeout, the cwnd will be set to the 1.
+
+Quick recovery.
+
 
 ## 3. NetWork Layer
 

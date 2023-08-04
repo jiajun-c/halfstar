@@ -50,6 +50,10 @@
     pageRef = "cs"
     weight = 30
 
+[[main]]
+    name = "git"
+    pageRef = "git"
+    weight = 30
 #[[main]]
 #  name = "example sub-menu 2"
 #  parent = "Parent"

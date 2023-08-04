@@ -4,8 +4,35 @@
   
     
       <url>
-            <loc>https://www.halfcs.top/cs/net/</loc>
-            <lastmod>2023-07-12T09:31:32+08:00</lastmod>
+            <loc>https://www.halfcs.top/</loc>
+            <lastmod>2023-08-01T14:33:39+08:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://www.halfcs.top/web/</loc>
+            <lastmod>2023-08-01T14:33:39+08:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://www.halfcs.top/web/backend/protocol/</loc>
+            <lastmod>2023-08-01T14:33:39+08:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://www.halfcs.top/cs/arch/</loc>
+            <lastmod>2023-07-13T05:31:32+08:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
           </url>
@@ -14,7 +41,7 @@
     
       <url>
             <loc>https://www.halfcs.top/cs/</loc>
-            <lastmod>2023-07-12T09:31:32+08:00</lastmod>
+            <lastmod>2023-07-13T05:31:32+08:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
           </url>
@@ -22,8 +49,8 @@
   
     
       <url>
-            <loc>https://www.halfcs.top/</loc>
-            <lastmod>2023-07-12T09:31:32+08:00</lastmod>
+            <loc>https://www.halfcs.top/cs/net/</loc>
+            <lastmod>2023-07-12T05:31:32+08:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
           </url>

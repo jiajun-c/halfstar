@@ -6,11 +6,31 @@
     <description>Recent content on My star</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 12 Jul 2023 09:31:32 +0800</lastBuildDate><atom:link href="https://www.halfcs.top/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Aug 2023 14:33:39 +0800</lastBuildDate><atom:link href="https://www.halfcs.top/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>后端相关协议</title>
+      <link>https://www.halfcs.top/web/backend/protocol/</link>
+      <pubDate>Tue, 01 Aug 2023 14:33:39 +0800</pubDate>
+      
+      <guid>https://www.halfcs.top/web/backend/protocol/</guid>
+      <description>TCP(Transmission Control Protocol) # rfc793</description>
+      
+    </item>
+    
+    <item>
+      <title>Computer architecture</title>
+      <link>https://www.halfcs.top/cs/arch/</link>
+      <pubDate>Thu, 13 Jul 2023 05:31:32 +0800</pubDate>
+      
+      <guid>https://www.halfcs.top/cs/arch/</guid>
+      <description>The computer architecture # 1.</description>
+      
+    </item>
+    
     <item>
       <title>Computer network</title>
       <link>https://www.halfcs.top/cs/net/</link>
-      <pubDate>Wed, 12 Jul 2023 09:31:32 +0800</pubDate>
+      <pubDate>Wed, 12 Jul 2023 05:31:32 +0800</pubDate>
       
       <guid>https://www.halfcs.top/cs/net/</guid>
       <description>1.</description>

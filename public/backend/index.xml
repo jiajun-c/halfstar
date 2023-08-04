@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Backends on My star</title>
+    <link>https://www.halfcs.top/backend/</link>
+    <description>Recent content in Backends on My star</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 01 Aug 2023 14:33:39 +0800</lastBuildDate><atom:link href="https://www.halfcs.top/backend/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>后端相关协议</title>
+      <link>https://www.halfcs.top/backend/protocol/</link>
+      <pubDate>Tue, 01 Aug 2023 14:33:39 +0800</pubDate>
+      
+      <guid>https://www.halfcs.top/backend/protocol/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
