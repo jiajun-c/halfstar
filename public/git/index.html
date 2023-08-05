@@ -94,7 +94,7 @@
     
     
     "mainEntityOfPage": "true",
-    "wordCount": "182"
+    "wordCount": "328"
   }]
   </script>
 
@@ -687,7 +687,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2023-08-04 19:29:46 &#43;0800 CST">4 August 2023</time><span class="px-2 text-primary-500">&middot;</span><span>182 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span>
+  <time datetime="2023-08-04 19:29:46 &#43;0800 CST">4 August 2023</time><span class="px-2 text-primary-500">&middot;</span><span>328 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span>
   
 
   
@@ -716,9 +716,14 @@
     class="min-w-[220px] py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#21-git完整性">2.1 git完整性</a></li>
-    <li><a href="#22-文件状态">2.2 文件状态</a></li>
-    <li><a href="#23-git-配置">2.3 git 配置</a></li>
+    <li><a href="#1-git介绍">1. git介绍</a></li>
+    <li><a href="#2-git的基本原理">2. git的基本原理</a>
+      <ul>
+        <li><a href="#21-git完整性">2.1 git完整性</a></li>
+        <li><a href="#22-文件状态">2.2 文件状态</a></li>
+        <li><a href="#23-git-配置">2.3 git 配置</a></li>
+      </ul>
+    </li>
     <li><a href="#3-git基础使用">3. git基础使用</a>
       <ul>
         <li><a href="#31-初始化仓库">3.1 初始化仓库</a></li>
@@ -735,6 +740,29 @@
         <li><a href="#41-分支合并">4.1 分支合并</a></li>
         <li><a href="#42-分支删除">4.2 分支删除</a></li>
         <li><a href="#43-分支冲突">4.3 分支冲突</a></li>
+        <li><a href="#44-使用变基的方式进行合并">4.4 使用变基的方式进行合并</a></li>
+      </ul>
+    </li>
+    <li><a href="#5-服务器上的git">5. 服务器上的git</a>
+      <ul>
+        <li><a href="#51-基于本地协议">5.1 基于本地协议</a></li>
+        <li><a href="#52-ssh协议">5.2 ssh协议</a></li>
+        <li><a href="#53-http协议">5.3 http协议</a></li>
+      </ul>
+    </li>
+    <li><a href="#6-分布式git">6. 分布式git</a>
+      <ul>
+        <li><a href="#61-集中式工作流">6.1 集中式工作流</a></li>
+        <li><a href="#62-集成管理员工作模式">6.2 集成管理员工作模式</a></li>
+        <li><a href="#63-司令官与副官工作流">6.3 司令官与副官工作流</a></li>
+        <li><a href="#64-cherry-pick-获取commit">6.4 cherry-pick 获取commit</a></li>
+      </ul>
+    </li>
+    <li><a href="#7-git工具">7. git工具</a>
+      <ul>
+        <li><a href="#71-交互式git">7.1 交互式git</a></li>
+        <li><a href="#72-暂存">7.2 暂存</a></li>
+        <li><a href="#73-子模块">7.3 子模块</a></li>
       </ul>
     </li>
   </ul>
@@ -750,9 +778,14 @@
     class="py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#21-git完整性">2.1 git完整性</a></li>
-    <li><a href="#22-文件状态">2.2 文件状态</a></li>
-    <li><a href="#23-git-配置">2.3 git 配置</a></li>
+    <li><a href="#1-git介绍">1. git介绍</a></li>
+    <li><a href="#2-git的基本原理">2. git的基本原理</a>
+      <ul>
+        <li><a href="#21-git完整性">2.1 git完整性</a></li>
+        <li><a href="#22-文件状态">2.2 文件状态</a></li>
+        <li><a href="#23-git-配置">2.3 git 配置</a></li>
+      </ul>
+    </li>
     <li><a href="#3-git基础使用">3. git基础使用</a>
       <ul>
         <li><a href="#31-初始化仓库">3.1 初始化仓库</a></li>
@@ -769,6 +802,29 @@
         <li><a href="#41-分支合并">4.1 分支合并</a></li>
         <li><a href="#42-分支删除">4.2 分支删除</a></li>
         <li><a href="#43-分支冲突">4.3 分支冲突</a></li>
+        <li><a href="#44-使用变基的方式进行合并">4.4 使用变基的方式进行合并</a></li>
+      </ul>
+    </li>
+    <li><a href="#5-服务器上的git">5. 服务器上的git</a>
+      <ul>
+        <li><a href="#51-基于本地协议">5.1 基于本地协议</a></li>
+        <li><a href="#52-ssh协议">5.2 ssh协议</a></li>
+        <li><a href="#53-http协议">5.3 http协议</a></li>
+      </ul>
+    </li>
+    <li><a href="#6-分布式git">6. 分布式git</a>
+      <ul>
+        <li><a href="#61-集中式工作流">6.1 集中式工作流</a></li>
+        <li><a href="#62-集成管理员工作模式">6.2 集成管理员工作模式</a></li>
+        <li><a href="#63-司令官与副官工作流">6.3 司令官与副官工作流</a></li>
+        <li><a href="#64-cherry-pick-获取commit">6.4 cherry-pick 获取commit</a></li>
+      </ul>
+    </li>
+    <li><a href="#7-git工具">7. git工具</a>
+      <ul>
+        <li><a href="#71-交互式git">7.1 交互式git</a></li>
+        <li><a href="#72-暂存">7.2 暂存</a></li>
+        <li><a href="#73-子模块">7.3 子模块</a></li>
       </ul>
     </li>
   </ul>
@@ -822,39 +878,39 @@
         
 
         <div id="1-git介绍" class="anchor"></div>
-<h1 class="relative group">1. git介绍 
+<h2 class="relative group">1. git介绍 
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
             style="text-decoration-line: none !important;" href="#1-git%e4%bb%8b%e7%bb%8d" aria-label="Anchor">#</a></span>        
     
-</h1>
+</h2>
 <p>git是一套高效的版本管理工具，最早是因为bitkeeper同linux社区结束了合作关系，导致linus开始开发一套自己的版本管理工具。</p>
 <div id="2-git的基本原理" class="anchor"></div>
-<h1 class="relative group">2. git的基本原理 
+<h2 class="relative group">2. git的基本原理 
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
             style="text-decoration-line: none !important;" href="#2-git%e7%9a%84%e5%9f%ba%e6%9c%ac%e5%8e%9f%e7%90%86" aria-label="Anchor">#</a></span>        
     
-</h1>
+</h2>
 <div id="21-git完整性" class="anchor"></div>
-<h2 class="relative group">2.1 git完整性 
+<h3 class="relative group">2.1 git完整性 
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
             style="text-decoration-line: none !important;" href="#21-git%e5%ae%8c%e6%95%b4%e6%80%a7" aria-label="Anchor">#</a></span>        
     
-</h2>
+</h3>
 <p>在保存到git之前，需要对数据进行内容的检验和计算，git使用的sha-1算法计算检验和，该检验和由40个字符串组成作为指纹字符串进行标识。</p>
 <div id="22-文件状态" class="anchor"></div>
-<h2 class="relative group">2.2 文件状态 
+<h3 class="relative group">2.2 文件状态 
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
             style="text-decoration-line: none !important;" href="#22-%e6%96%87%e4%bb%b6%e7%8a%b6%e6%80%81" aria-label="Anchor">#</a></span>        
     
-</h2>
+</h3>
 <p>git中的文件有三种状态</p>
 <ul>
 <li>commited：已经被提交</li>
@@ -862,13 +918,13 @@
 <li>modified：被修改</li>
 </ul>
 <div id="23-git-配置" class="anchor"></div>
-<h2 class="relative group">2.3 git 配置 
+<h3 class="relative group">2.3 git 配置 
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
             style="text-decoration-line: none !important;" href="#23-git-%e9%85%8d%e7%bd%ae" aria-label="Anchor">#</a></span>        
     
-</h2>
+</h3>
 <p>git的配置文件在<code>/etc/gitconfig</code>和<code>~/.gitconfig</code> 中，前者是对系统适用的配置文件，后者是对用户适用的配置文件</p>
 <p>下面是一个用户配置文件的例子，用于配置编辑器等</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="o">[</span>user<span class="o">]</span>
@@ -1019,7 +1075,154 @@
             style="text-decoration-line: none !important;" href="#43-%e5%88%86%e6%94%af%e5%86%b2%e7%aa%81" aria-label="Anchor">#</a></span>        
     
 </h3>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"></code></pre></div>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">git mergetool &lt;file name&gt;
+</span></span></code></pre></div><div id="44-使用变基的方式进行合并" class="anchor"></div>
+<h3 class="relative group">4.4 使用变基的方式进行合并 
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#44-%e4%bd%bf%e7%94%a8%e5%8f%98%e5%9f%ba%e7%9a%84%e6%96%b9%e5%bc%8f%e8%bf%9b%e8%a1%8c%e5%90%88%e5%b9%b6" aria-label="Anchor">#</a></span>        
+    
+</h3>
+<p>rebase是git中的一个重要的操作，使用rebase可以将部分分支的修改直接添加到当前分支上。</p>
+<p>假设dev分支和main分支起源于同一个commit，dev分支在此时进行了commit，main分支也进行了commit，如果此时需要将dev的修改合并到main分支上，那么此时可以</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">git checkout dev
+</span></span><span class="line"><span class="cl">git rebase main
+</span></span><span class="line"><span class="cl">git checkout main
+</span></span><span class="line"><span class="cl">git merge dev
+</span></span></code></pre></div><p>使用变基的方法需要注意的是避免对已经存储远端的提交历史进行操作</p>
+<div id="5-服务器上的git" class="anchor"></div>
+<h2 class="relative group">5. 服务器上的git 
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#5-%e6%9c%8d%e5%8a%a1%e5%99%a8%e4%b8%8a%e7%9a%84git" aria-label="Anchor">#</a></span>        
+    
+</h2>
+<div id="51-基于本地协议" class="anchor"></div>
+<h3 class="relative group">5.1 基于本地协议 
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#51-%e5%9f%ba%e4%ba%8e%e6%9c%ac%e5%9c%b0%e5%8d%8f%e8%ae%ae" aria-label="Anchor">#</a></span>        
+    
+</h3>
+<p>git在进行clone的时候可以使用本地的文件路径作为远端的url进行使用</p>
+<div id="52-ssh协议" class="anchor"></div>
+<h3 class="relative group">5.2 ssh协议 
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#52-ssh%e5%8d%8f%e8%ae%ae" aria-label="Anchor">#</a></span>        
+    
+</h3>
+<p>可以在前面指明使用ssh或者是使用 user@server的方式即可进行处理</p>
+<div id="53-http协议" class="anchor"></div>
+<h3 class="relative group">5.3 http协议 
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#53-http%e5%8d%8f%e8%ae%ae" aria-label="Anchor">#</a></span>        
+    
+</h3>
+<p>只需要把裸的git仓库文件放到http服务的根目录下并设置一个特定的post-update(hook)即可搞定</p>
+<div id="6-分布式git" class="anchor"></div>
+<h2 class="relative group">6. 分布式git 
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#6-%e5%88%86%e5%b8%83%e5%bc%8fgit" aria-label="Anchor">#</a></span>        
+    
+</h2>
+<div id="61-集中式工作流" class="anchor"></div>
+<h3 class="relative group">6.1 集中式工作流 
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#61-%e9%9b%86%e4%b8%ad%e5%bc%8f%e5%b7%a5%e4%bd%9c%e6%b5%81" aria-label="Anchor">#</a></span>        
+    
+</h3>
+<p>只有一个核心仓库，每个人向其中提交代码，并从远端拉取他人的修改，是最常见的工作模式</p>
+<div id="62-集成管理员工作模式" class="anchor"></div>
+<h3 class="relative group">6.2 集成管理员工作模式 
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#62-%e9%9b%86%e6%88%90%e7%ae%a1%e7%90%86%e5%91%98%e5%b7%a5%e4%bd%9c%e6%a8%a1%e5%bc%8f" aria-label="Anchor">#</a></span>        
+    
+</h3>
+<p>每个成员对应一个远程的仓库，还有一个远程的总仓库从这些远程仓库中获取更新。</p>
+<div id="63-司令官与副官工作流" class="anchor"></div>
+<h3 class="relative group">6.3 司令官与副官工作流 
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#63-%e5%8f%b8%e4%bb%a4%e5%ae%98%e4%b8%8e%e5%89%af%e5%ae%98%e5%b7%a5%e4%bd%9c%e6%b5%81" aria-label="Anchor">#</a></span>        
+    
+</h3>
+<div id="64-cherry-pick-获取commit" class="anchor"></div>
+<h3 class="relative group">6.4 cherry-pick 获取commit 
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#64-cherry-pick-%e8%8e%b7%e5%8f%96commit" aria-label="Anchor">#</a></span>        
+    
+</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">git cherry &lt;commit version&gt;
+</span></span></code></pre></div><div id="7-git工具" class="anchor"></div>
+<h2 class="relative group">7. git工具 
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#7-git%e5%b7%a5%e5%85%b7" aria-label="Anchor">#</a></span>        
+    
+</h2>
+<div id="71-交互式git" class="anchor"></div>
+<h3 class="relative group">7.1 交互式git 
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#71-%e4%ba%a4%e4%ba%92%e5%bc%8fgit" aria-label="Anchor">#</a></span>        
+    
+</h3>
+<p>使用<code>git add -i</code> 可以使得git进入交互式的shell模式</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">&gt; git add -i 
+</span></span><span class="line"><span class="cl">           staged     unstaged path
+</span></span><span class="line"><span class="cl">  1:    unchanged       +65/-6 content/git.md
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">*** Commands ***
+</span></span><span class="line"><span class="cl">  1: status       2: update       3: revert       4: add untracked
+</span></span><span class="line"><span class="cl">  5: patch        6: diff         7: quit         8: <span class="nb">help</span>
+</span></span><span class="line"><span class="cl">What now&gt; <span class="m">1</span>
+</span></span><span class="line"><span class="cl">           staged     unstaged path
+</span></span><span class="line"><span class="cl">  1:    unchanged       +65/-6 content/git.md
+</span></span></code></pre></div><div id="72-暂存" class="anchor"></div>
+<h3 class="relative group">7.2 暂存 
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#72-%e6%9a%82%e5%ad%98" aria-label="Anchor">#</a></span>        
+    
+</h3>
+<p>有时候在当前分支上做了一些修改但是不希望进行commit又希望切换到其他的分支上，那么此时可以使用<code>git stash</code>进行暂存</p>
+<p>回到当前分支继续开发可以使用<code>git stash pop</code>, 如果想放弃这些修改，可以使用<code>git stash drop</code></p>
+<div id="73-子模块" class="anchor"></div>
+<h3 class="relative group">7.3 子模块 
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#73-%e5%ad%90%e6%a8%a1%e5%9d%97" aria-label="Anchor">#</a></span>        
+    
+</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">git submodule add &lt;repo url&gt;
+</span></span></code></pre></div><p>克隆带子项目的仓库</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">git clone &lt;repo url&gt;
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> &lt;repo&gt;
+</span></span><span class="line"><span class="cl"><span class="c1"># 初始化子模块</span>
+</span></span><span class="line"><span class="cl">git submodule init 
+</span></span></code></pre></div><p>更新子模块</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">git submodule update
+</span></span></code></pre></div>
         </br></br>
         
 
