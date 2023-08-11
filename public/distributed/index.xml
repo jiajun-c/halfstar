@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Distributeds on My star</title>
+    <link>https://www.halfcs.top/distributed/</link>
+    <description>Recent content in Distributeds on My star</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2023 half star</copyright>
+    <lastBuildDate>Fri, 11 Aug 2023 10:39:28 +0800</lastBuildDate><atom:link href="https://www.halfcs.top/distributed/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Paper summmary of Mapreduce</title>
+      <link>https://www.halfcs.top/distributed/paper/mapreduce/</link>
+      <pubDate>Fri, 11 Aug 2023 10:39:28 +0800</pubDate>
+      
+      <guid>https://www.halfcs.top/distributed/paper/mapreduce/</guid>
+      <description>1.</description>
+      
+    </item>
+    
+    <item>
+      <title>分布式系统基础</title>
+      <link>https://www.halfcs.top/distributed/basic/</link>
+      <pubDate>Wed, 09 Aug 2023 21:55:02 +0800</pubDate>
+      
+      <guid>https://www.halfcs.top/distributed/basic/</guid>
+      <description>1 分布式系统概念 # 1.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

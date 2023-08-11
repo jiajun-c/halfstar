@@ -65,6 +65,11 @@
     parent = "lang"
     pageRef = "lang/lua"
     weight = 30
+
+[[main]]
+    name = "distributed"
+    pageRef = "distributed"
+    weight = 30
 #[[main]]
 #  name = "example sub-menu 2"
 #  parent = "Parent"

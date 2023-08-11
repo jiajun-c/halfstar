@@ -4,8 +4,8 @@
   
     
       <url>
-            <loc>https://www.halfcs.top/</loc>
-            <lastmod>2023-08-07T21:13:39+08:00</lastmod>
+            <loc>https://www.halfcs.top/distributed/</loc>
+            <lastmod>2023-08-11T10:39:28+08:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
           </url>
@@ -13,8 +13,35 @@
   
     
       <url>
-            <loc>https://www.halfcs.top/web/backend/redis/</loc>
-            <lastmod>2023-08-07T21:13:39+08:00</lastmod>
+            <loc>https://www.halfcs.top/</loc>
+            <lastmod>2023-08-11T10:39:28+08:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://www.halfcs.top/distributed/paper/mapreduce/</loc>
+            <lastmod>2023-08-11T10:39:28+08:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://www.halfcs.top/distributed/basic/</loc>
+            <lastmod>2023-08-09T21:55:02+08:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://www.halfcs.top/web/backend/kafka/</loc>
+            <lastmod>2023-08-09T20:42:19+08:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
           </url>
@@ -23,6 +50,15 @@
     
       <url>
             <loc>https://www.halfcs.top/web/</loc>
+            <lastmod>2023-08-09T20:42:19+08:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://www.halfcs.top/web/backend/redis/</loc>
             <lastmod>2023-08-07T21:13:39+08:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>

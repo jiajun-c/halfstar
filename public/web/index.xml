@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2023 half star</copyright>
-    <lastBuildDate>Mon, 07 Aug 2023 21:13:39 +0800</lastBuildDate><atom:link href="https://www.halfcs.top/web/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 09 Aug 2023 20:42:19 +0800</lastBuildDate><atom:link href="https://www.halfcs.top/web/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kafka 入门</title>
+      <link>https://www.halfcs.top/web/backend/kafka/</link>
+      <pubDate>Wed, 09 Aug 2023 20:42:19 +0800</pubDate>
+      
+      <guid>https://www.halfcs.top/web/backend/kafka/</guid>
+      <description>Kafka 安装 # 推荐从官网上下载kafka的压缩包进行解压。</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.halfcs.top/web/backend/kafka/cover.png" />
+    </item>
+    
     <item>
       <title>Redis 教程</title>
       <link>https://www.halfcs.top/web/backend/redis/</link>
